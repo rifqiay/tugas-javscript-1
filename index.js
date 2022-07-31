@@ -120,7 +120,7 @@ let data = {
   website: "hildegard.org",
 };
 
-// a. ubah data
+// a. ubah data menggunakan spread operator
 console.log("a. ubah data-----");
 const { hobbies } = biodata;
 
@@ -132,7 +132,7 @@ const updateData = {
 };
 console.log(updateData);
 
-// b. mengambil data
+// b. mengambil data menggunakan destructuring
 console.log("b. mengambil data-----");
 const { street, city } = data.address;
 console.log(street);
