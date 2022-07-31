@@ -8,20 +8,20 @@ const biodata = {
   schoolList: [
     {
       name: "SDN Purwodadi 01",
-      yearIn: "",
-      yearOut: "",
+      yearIn: 2006,
+      yearOut: 2012,
       major: null,
     },
     {
       name: "SMP Diponegoro Patimuan",
-      yearIn: "",
-      yearOut: "",
+      yearIn: 2012,
+      yearOut: 2015,
       major: null,
     },
     {
       name: "SMK Al-Muallim Kesugihan",
-      yearIn: "",
-      yearOut: "",
+      yearIn: 2016,
+      yearOut: 2019,
       major: "Teknik Kendaraan Ringan",
     },
   ],
