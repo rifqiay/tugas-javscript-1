@@ -8,7 +8,7 @@ const biodata = {
   schoolList: [
     {
       name: "SDN Purwodadi 01",
-      yearIn: 2006,
+      yearIn: 2007,
       yearOut: 2012,
       major: null,
     },
@@ -46,7 +46,7 @@ const biodata = {
   interestInCoding: true,
 };
 
-// // Nomor 2
+// Nomor 2
 console.log("-----Nomor 2-----");
 let matematika = 70;
 let bahasaIndonesia = 90;
@@ -89,7 +89,7 @@ if (i >= 0 && i < nilai.length) {
 
 // Nomor 3
 console.log("-----Nomor 3-----");
-const printSegitiga = 6;
+const printSegitiga = 5;
 let hasil = "";
 if (typeof printSegitiga == "number") {
   for (let i = printSegitiga; i >= 1; i--) {
@@ -103,7 +103,7 @@ if (typeof printSegitiga == "number") {
 }
 console.log(hasil);
 
-// Nomor 4
+// // Nomor 4
 console.log("-----Nomor 4-----");
 let data = {
   id: 1,
@@ -134,6 +134,8 @@ console.log(updateData);
 
 // b. mengambil data menggunakan destructuring
 console.log("b. mengambil data-----");
-const { street, city } = data.address;
-console.log(street);
-console.log(city);
+const {
+  address: { street, city },
+} = data;
+console.log(`Stree ${street}
+City ${city}`);
